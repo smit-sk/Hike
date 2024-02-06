@@ -6,13 +6,37 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct GradientButtonStyle: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct GradientButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration
+            .label
+            .padding(.vertical)
+            .padding(.horizontal, 30)
+            .background(
+                // Conditional Statment with Nul Coalscing
+                // Condition ? A : B
+                configuration.isPressed ?
+                LinearGradient(
+                    colors: [
+                        .customGrayMedium,
+                        .customGrayLight
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom)
+                :
+                // A: When User preseed the Button
+                // B: When the Button is not pressed
+                LinearGradient(
+                    colors: [
+                        .customGrayLight,
+                        .customGrayMedium
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom)
+            )
+            .cornerRadius(40)
     }
 }
 
-#Preview {
-    GradientButtonStyle()
-}

@@ -18,6 +18,7 @@
 		8171B9FE2B71738D00E45494 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171B9FD2B71738D00E45494 /* CustomBackgroundView.swift */; };
 		8171BA012B7176D300E45494 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171BA002B7176D300E45494 /* ColorExtensions.swift */; };
 		8171BA032B717F8700E45494 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171BA022B717F8700E45494 /* CustomButtonView.swift */; };
+		8171BA052B71BE1700E45494 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171BA042B71BE1700E45494 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8171B9FD2B71738D00E45494 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		8171BA002B7176D300E45494 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		8171BA022B717F8700E45494 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		8171BA042B71BE1700E45494 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				8171BA002B7176D300E45494 /* ColorExtensions.swift */,
+				8171BA042B71BE1700E45494 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				8171BA012B7176D300E45494 /* ColorExtensions.swift in Sources */,
 				8171B9FB2B7171E300E45494 /* CardView.swift in Sources */,
 				8171BA032B717F8700E45494 /* CustomButtonView.swift in Sources */,
+				8171BA052B71BE1700E45494 /* GradientButtonStyle.swift in Sources */,
 				8171B9D12B716EA400E45494 /* HIkeApp.swift in Sources */,
 				8171B9FE2B71738D00E45494 /* CustomBackgroundView.swift in Sources */,
 			);
